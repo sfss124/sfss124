@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/ls.css">
+    <!-- 引入bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <style>
+        #box {
+            width: 550px;
+            height: 300px;
+            /* background-color: rgb(245, 245, 245); */
+            /* margin: 150px auto; */
+            /* float: right; */
+            float: left;
+            margin-top: 20px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        
+        input {
+            width: 300px;
+            height: 50px;
+            margin-left: 170px;
+            margin-bottom: 30px;
+            /* margin-top: 10px; */
+            border: 1px solid rgb(177, 177, 177);
+        }
+        
+        #btn {
+            background: black;
+            color: white;
+        }
+        
+        span {
+            float: right;
+        }
+        
+        span a {
+            text-decoration: none;
+            color: red;
+        }
+        
+        .selist {
+            width: 100%;
+            position: absolute;
+            height: 350px;
+            top: 100;
+            left: 0;
+            background: #f5f5f5;
+            z-index: 102;
+            display: none;
+        }
+        
+        .selist .one {
+            width: 200px;
+            float: left;
+        }
+        
+        .selist .one h3 {
+            height: 0px;
+            margin-top: 30px;
+        }
+        
+        .selist .one p {
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部 -->
+
+    <div id="top">
+        <div id="header" class="container clearfix">
+            <div class="left">
+                <a href="http://localhost/00peak/inde.html"><img src="./images/logo.jpg" alt="" style="width: 110px; height: 80px;"></a>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="">商场</a></li>
+                    <li id="list"><a href="">男子</a>
+                        <div class="selist">
+                            <div class="llist container">
+                                <div class="one">
+                                    <h3>最新活动</h3>
+                                    <a href="#none">
+                                        <p>新品上市</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>热门商品</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>鞋类</h3>
+                                    <a href="http://localhost/00peak/list.html">
+                                        <p>篮球鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>跑步鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>足球鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>综训鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>户外鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>运动生活</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>服装</h3>
+                                    <a href="#">
+                                        <p>T恤/POLO衫/背心</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>卫衣</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>夹克/马甲</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>棉服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>羽绒服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>紧身服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>长裤</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>短裤</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>比赛/训练服</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>配件/装备</h3>
+                                    <a href="#">
+                                        <p>包袋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>帽</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>球</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>袜子</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>护具</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>运动器材</p>
+                                    </a>
+
+                                </div>
+                                <div class="one">
+                                    <h3>系列</h3>
+                                    <a href="#">
+                                        <p>悦跑系列</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>律动系列</p>
+
+                                    </a>
+                                    <a href="#">
+                                        <p>帕克系列</p>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">女子</a></li>
+                    <li><a href="">运动</a></li>
+                    <li><a href="">新闻</a></li>
+                    <li><a href="">匹克品牌</a></li>
+                    <li><a href="">粉丝社区</a></li>
+                    <li><a href="">门店查询</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="content" class="container">
+        <!-- 左边部分 -->
+        <div class="left">
+            <h4>还未注册？</h4>
+            <a href="./register.html">注册你的匹克账户</a>
+            <div>
+                <img src="./images/ma.jpg" alt="">
+            </div>
+            <p>匹克官方网店微信公众号
+            </p>
+            <p>
+                关注不一样的运动商城</p>
+        </div>
+        <!-- right -->
+        <div id="box">
+            <p>登录你的匹克会员</p>
+            <form action="" method="POST">
+                <input type="text" name="user" id="username" placeholder="用户名"><span style="margin-top: 16px;color: red;"></span><br>
+                <input type="text" name="password" id="pwd" placeholder="密码"><span style="margin-top: 16px;color: red;"></span><br>
+                <input type="button" value="登录" style="height: 50px;" id="btn"><br></form>
+        </div>
+        <!-- <script>
+                let listObj = document.querySelector('#list');
+                let selistObj = document.querySelector('.selist');
+                console.log(selistObj);
+                listObj.onmouseenter = function() {
+                    selistObj.style.display = 'block';
+                }
+                listObj.onmouseleave = function() {
+                    selistObj.style.display = 'none';
+
+                }
+            
+        </script> -->
+        <script src="./js/jquery-2.2.4.js"></script>
+        <script src="./layer/layer.js"></script>
+        <script src="./js/login.js"></script>
+
+
+    </div>
+</body>
+
+</html>

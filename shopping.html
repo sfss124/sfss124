@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/jquery-2.2.4.js"></script>
+    <script src="./layer/layer.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 顶部 -->
+
+    <div id="top">
+        <div id="header" class="container clearfix">
+            <div class="left">
+                <a href="http://localhost/00peak/inde.html"><img src="./images/logo.jpg" alt="" style="width: 110px; height: 80px;"></a>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="">商场</a></li>
+                    <li><a href="">男子</a></li>
+                    <li><a href="">女子</a></li>
+                    <li><a href="">运动</a></li>
+                    <li><a href="">新闻</a></li>
+                    <li><a href="">匹克品牌</a></li>
+                    <li><a href="">粉丝社区</a></li>
+                    <li><a href="">门店查询</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+                <a href="./login.html"><input type="button" value="登录"></a>
+                <a href="./register.html"><input type="button" value="注册"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class="peak-path container">
+        <p>您当前所在的位置：<a href="./inde.html">首页</a><span>&gt;</span><a href="#">我的购物车</a></p>
+    </div>
+    <!-- 购物车 -->
+    <div class="trol-content clearfix container">
+        <div class="indent-tb-box" id="xCarts-Table">
+            <table class="indent-tb" id="indent-tb">
+                <thead>
+                    <tr style="height: 80px;">
+                        <th class="choose-all-btn">
+                            <input type="checkbox" id="choose-a-btn">
+                            <!-- <div class="checkall product-checkbox  product-checkbox-default" status="0" type="all" onclick="_xShoppingCartsScript.selectAllProduct($(this));"></div> -->
+                        </th>
+                        <th>全选</th>
+                        <th>商品名称</th>
+                        <th>规格</th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <!-- <tr class="indent-tr xxShoppingCart" rowno="0" style="height: 1.2em;text-align: center;">
+                        <td class="choose-btn" style="text-align: center;">
+                            <input type="checkbox">
+                            <div class="product-checkbox product-checkbox-default" onclick="_xShoppingCartsScript.selectProduct($(this));" status="0"></div>
+                        </td>
+                        <td class="indent-product-name">
+                            <img src="./images/detail1.jpg" alt="" style="width: 50px;height: 50px; margin: 0 auto;">
+                        </td>
+                        <td>
+                            <a target="_blank" hidefocus="true" href="/XP001-ProductInfo/Initial-DE130461.html?studentId=0" title="男子时尚休闲鞋  DE130461">
+           男子时尚休闲鞋  DE130461	</a>
+                        </td>
+
+                        <td class="indent-color-size">
+                            <p class="indent-color">砂砾灰</p>
+                            <p class="indent-color">尺码：41</p>
+                        </td>
+                        <td class="indent-unit">
+                            <p class="new-unit"><small>￥</small><span>299.00</span></p>
+                        </td>
+                        <td class="indent-num-td xNumber">
+                            <div class="indent-num-box clearfix">
+                                <span class="xSalesAction-NumberAdd num-reduce">-</span>
+                                <input class="indent-num xSalesAction-NumberTxt" value="1" style="width: 30px;">
+                                <span class="xSalesAction-NumberDec num-add" style="">+</span>
+                            </div>
+                        </td>
+                        <td class="indent-sum-box">
+                            <p class="indent-sum">
+                                ￥<span>299.00</span>
+                            </p>
+                        </td>
+                        <td class="indent-del-box">
+                            <p class="indent-del" data-target="#ComfirmDeleteAddr" onclick="_xShoppingCartsScript.delProduct($(this));">删除</p>
+                        </td>
+                    </tr> -->
+            </table>
+        </div>
+    </div>
+    <div class="trol-footer clearfix container">
+        <p class="continue-buy" style="margin-left: 0">
+            <th class="choose-all-btn">
+                <input type="checkbox" id="choose-a-btn">
+            </th><a href="javascript:history.go(-1);">继续购物</a></p>
+        <p>已选择 <span id="selectNum" class="choose-num" style="color: red;">0</span> 件</p>
+        <div class="shoppingTotal-Button  " onclick="">去结算</div>
+
+        <p class="trol-total">合计（不含运费）：<span class="total-sum-box">￥<span id="priceTotal" class="xxShopping-totalMoneystats-sum" style="color: red;">0.00</span></span>
+        </p>
+    </div>
+    <script src="./js/shopping.js"></script>
+
+</body>
+
+</html>

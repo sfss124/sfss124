@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 首页样式 -->
+    <link rel="stylesheet" href="./css/inde.css">
+    <!-- 引入bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .selist {
+            width: 100%;
+            position: absolute;
+            height: 350px;
+            top: 100px;
+            left: 0;
+            background: #f5f5f5;
+            z-index: 102;
+            display: none;
+        }
+        
+        .selist .one {
+            width: 200px;
+            height: 350px;
+            float: left;
+        }
+        
+        .selist .one h3 {
+            height: 20px;
+            margin-bottom: 20px;
+            /* margin-top: 30px; */
+        }
+        
+        .selist .one p {
+            width: 200px;
+            height: 20px;
+            /* background-color: skyblue; */
+            /* margin-top: 20px; */
+            /* float: left; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="#none">
+        <div class="back"></div>
+    </a>
+    <div class="chat"></div>
+    <div class="feed"></div>
+
+
+    <!-- 顶部 -->
+    <div id="top">
+        <div id="header" class="container clearfix">
+            <div class="left">
+                <a href=""><img src="./images/logo.jpg" alt="" style="width: 110px; height: 80px;"></a>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="">商场</a></li>
+
+
+                    <li id="list"><a href="">男子</a>
+                        <div class="selist">
+                            <div class="llist container clearfix">
+                                <div class="one">
+                                    <h3>最新活动</h3>
+                                    <a href="#none">
+                                        <p>新品上市</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>热门商品</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>鞋类</h3>
+                                    <a href="http://localhost/00peak/list.html">
+                                        <p>篮球鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>跑步鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>足球鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>综训鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>户外鞋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>运动生活</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>服装</h3>
+                                    <a href="#">
+                                        <p>T恤/POLO衫/背心</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>卫衣</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>夹克/马甲</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>棉服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>羽绒服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>紧身服</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>长裤</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>短裤</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>比赛/训练服</p>
+                                    </a>
+                                </div>
+                                <div class="one">
+                                    <h3>配件/装备</h3>
+                                    <a href="#">
+                                        <p>包袋</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>帽</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>球</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>袜子</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>护具</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>运动器材</p>
+                                    </a>
+
+                                </div>
+                                <div class="one">
+                                    <h3>系列</h3>
+                                    <a href="#">
+                                        <p>悦跑系列</p>
+                                    </a>
+                                    <a href="#">
+                                        <p>律动系列</p>
+
+                                    </a>
+                                    <a href="#">
+                                        <p>帕克系列</p>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li><a href="">女子</a></li>
+                    <li><a href="">运动</a></li>
+                    <li><a href="">新闻</a></li>
+                    <li><a href="">匹克品牌</a></li>
+                    <li><a href="">粉丝社区</a></li>
+                    <li><a href="">门店查询</a></li>
+                </ul>
+            </div>
+            <div class="right">
+
+                <div class="holder">
+                    <input type="text" id="app" style="border: 1px solid #f5f5f5;">
+                    <ul>
+                        <li>态极闪现四代</li>
+                        <li>态极拖鞋</li>
+                        <li>卫衣</li>
+                        <li>夹克</li>
+                        <li>羽绒服</li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+                <a href="./login.html"><input type="button" value="登录"></a>
+                <a href="./register.html"><input type="button" value="注册"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播 -->
+    <div class="abc">
+        <div id="banner" class="clearfix screen">
+            <ul>
+                <li>
+                    <a href="#none"><img src="./images/banner1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#none"><img src="./images/banner2.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#none"><img src="./images/banner3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#none"><img src="./images/banner4.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#none"><img src="./images/banner5.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#none"><img src="./images/banner6.png" alt=""></a>
+                </li>
+            </ul>
+            <ol>
+
+            </ol>
+        </div>
+        <div id="arr">
+            <span id="left">&lt;</span>
+            <span id="right">&gt;</span>
+        </div>
+    </div>
+
+    <!-- 内容主体 -->
+    <div id="content">
+        <div class="container">
+            <div class="tcon clearfix">
+                <div class="left1">
+                    <a href="./detail.html?id=0;name=chothes;src=./images/detail2.jpg;price=279" target="_blank">
+
+                        <div class="top">
+
+                            <!-- <a href=""></a> -->
+                        </div>
+                        <div class="bottom">
+                            <p>吴磊同款</p>
+                        </div>
+                </div>
+
+                <div class="center1">
+                    <a href="./detail.html?id=1;name=manshoes;src=./images/detail1.jpg;price=299" target="_blank">
+                        <div class="top">
+                            <!-- <a href=""></a> -->
+                        </div>
+                        <div class="bottom">
+
+                            <p>男子篮球比赛鞋</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="right1">
+                    <a href="./detail.html?id=2;name=dress;src=./images/detail3.jpg;price=299" target="_blank">
+                        <div class="top">
+                            <!-- <a href=""></a> -->
+                        </div>
+                        <div class="bottom">
+                            <p>男子卫衣</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- 小图标 -->
+        <div id="contt" class="container clearfix">
+            <div class="cont">
+                <img src="./images/cont1.png" alt="">
+                <p>篮球</p>
+                <a href="#"><img src="./images/cont1.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont2.png" alt="">
+                <p>跑步</p>
+                <a href="#"><img src="./images/cont2.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont3.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont3.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont4.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont4.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont5.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont5.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont6.png" alt="" style="height: 48px;">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont6.1.png" alt="" class="p1" style="height: 48px;"></a>
+            </div>
+        </div>
+
+        <div id="contb" class="container clearfix">
+            <div class="cont" style="height: 65px;">
+                <img src="./images/cont7.png" alt="">
+                <p style="margin-top: 13px;">跑步</p>
+
+                <a href="#"><img src="./images/cont7.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont8.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont8.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont9.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont9.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont10.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont10.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont11.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont11.1.png" alt="" class="p1"></a>
+            </div>
+            <div class="cont">
+                <img src="./images/cont12.png" alt="">
+                <p>跑步</p>
+
+                <a href="#"><img src="./images/cont12.1.png" alt="" class="p1"></a>
+            </div>
+        </div>
+
+
+        <!--内容宣传  -->
+        <div id="cont2" class="container clearfix">
+            <div class="left2">
+                <div class="ttop"><img src="./images/contentb1.png" alt=""></div>
+                <div class="bbom">
+                    <p>
+                        吴磊同款
+                    </p>
+                </div>
+            </div>
+            <div class="center2">
+                <div class="centertop">
+                    <div class="ct"><img src="./images/contentb2.png" alt=""></div>
+
+                    <div class="ctp">吴磊同款</div>
+                </div>
+                <div class="centerbottom">
+                    <div class="ct"><img src="./images/contentb3.png" alt=""></div>
+                    <div class="ctp">吴磊同款</div>
+                </div>
+            </div>
+            <div class="right2">
+                <div class="rt"><img src="./images/contentb4.png" alt="">
+                    <div class="rtp">吴磊同款</div>
+                </div>
+                <div class="rb">
+                    <div class="rbl"><img src="./images/contentb5.png" alt="">
+                        <div class="rbp">吴磊同款</div>
+                    </div>
+                    <div class="rbr"><img src="./images/contentb6.png" alt="">
+                        <div class="rbp">吴磊同款</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 新闻资讯 -->
+        <div id="cont2" class="container clearfix">
+            <div class="left2">
+                <div class="ttop"><img src="./images/contenttb7.png "></div>
+                <div class="bbom">
+                    <p>
+                        吴磊同款
+                    </p>
+                </div>
+            </div>
+            <div class="center2">
+                <div class="centertop">
+                    <div class="ct"><img src="./images/contenttb8.png" alt=""></div>
+
+                    <div class="ctp">吴磊同款</div>
+                </div>
+                <div class="centerbottom">
+                    <div class="ct"><img src="./images/contenttb9.png" alt=""></div>
+                    <div class="ctp">吴磊同款</div>
+                </div>
+            </div>
+            <div class="right2">
+                <div class="rt"><img src="./images/contenttb10.png" alt="">
+                    <div class="rtp">吴磊同款</div>
+                </div>
+                <div class="rb">
+                    <div class="rbl"><img src="./images/contenttb11.png" alt="">
+                        <div class="rbp">吴磊同款</div>
+                    </div>
+                    <div class="rbr"><img src="./images/contenttb12.png" alt="">
+                        <div class="rbp">吴磊同款</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 底部 -->
+        <div id="foot">
+            <div class="container">
+                <div class="foot1">
+                    <img src="" alt="" class="img1">
+
+                    <img src="" alt="" class="img2">
+                    <p>&emsp;中国上海市xxx区xxx路12号moumou大厦5层5xx室</p>
+                    <p>&emsp;400-000-xxxx / (021)-1234578xxx</p>
+                    <p>&emsp;12385963xxxx@gmail.com</p>
+                </div>
+
+                <div class="foot2">
+                    <div class="root1">快速链接</div>
+                    <div class="root2">
+                        <ul class="list1">
+                            <li><a href="">> 网站首页</a></li>
+                            <li><a href="">> 产品展示</a></li>
+                            <li><a href="">> 在线留言</a></li>
+                        </ul>
+                        <ul class="list2">
+                            <li><a href="">> 关于我们</a></li>
+                            <li><a href="">> 新闻动态</a></li>
+                            <li><a href="">> 联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot3">
+                    <div class="root3">站内搜索</div>
+                    <div class="root4"><input type="text" placeholder="请输入关键字"> <button type="button"><a href="#">搜索</a> </button></div>
+                    <div class="root5"><a href="#"> 关注我们&emsp;<img src='' alt=""></a></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 底部信息栏 -->
+        <div id="round">
+            <div class="container">
+                <div> Copyright 2007-2014 北京千峰互联科技有限公司 京ICP备12003911号-3 京公网安备11010802011455 站长统计 百度统计</div>
+            </div>
+        </div>
+        <script src="./js/inde.js"></script>
+        <script>
+            let listObj = document.querySelector('#list');
+            let selistObj = document.querySelector('.selist');
+            let ppp = document.querySelectorAll('.one p');
+            // console.log(ppp);
+            console.log(selistObj);
+            listObj.onmouseenter = function() {
+                selistObj.style.display = 'block';
+            }
+            listObj.onmouseleave = function() {
+                selistObj.style.display = 'none';
+
+            }
+            ppp.forEach(function(v) {
+                console.log(v);
+                v.onmouseenter = function() {
+                    v.style.color = 'red';
+                }
+                v.onmouseleave = function() {
+                    v.style.color = 'black';
+
+                }
+            })
+        </script>
+
+</body>
+
+</html>

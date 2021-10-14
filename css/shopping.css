@@ -1,0 +1,230 @@
+body,
+html {
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+
+
+/* 顶部 */
+
+#top {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    min-width: 1170px;
+}
+
+#header {
+    /* width: 100%; */
+    height: 100px;
+    /* background-color: red; */
+}
+
+.left {
+    float: left;
+    margin-top: 10px;
+}
+
+.center {
+    float: left;
+    margin-left: 80px;
+}
+
+.center li {
+    float: left;
+    font-size: 16px;
+    line-height: 100px;
+    margin-left: 30px;
+}
+
+.center li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right {
+    float: right;
+    /* line-height: 100px; */
+    /* text-align: center; */
+    margin-top: 35px;
+}
+
+.right input {
+    border: none;
+    font-size: 16px;
+}
+
+.right button {
+    border: none;
+}
+
+
+/* 导航 */
+
+.peak-path {
+    width: 100%;
+    height: 0.7em;
+    font-family: "å¾®è½¯é›…é»‘";
+    padding-top: 100px;
+}
+
+.peak-path p {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0.14em;
+    line-height: 5;
+    background-color: #f5f5f5 !important;
+    color: #777777;
+}
+
+
+/* 购物车 */
+
+.indent-tb-box {
+    /* min-height: 200px; */
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.indent-tb {
+    width: 100%;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.indent-tb tbody tr {
+    width: 100%;
+    height: 0.7em;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.indent-tb tr th:nth-child(1) {
+    width: 6%;
+}
+
+.indent-tb tr th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.17em;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.indent-tb .choose-all-btn>div {
+    border: 1px solid #c7c6c6;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.indent-tb tr th div {
+    margin: 0 auto;
+    width: 0.94em;
+    height: 0.94em;
+}
+
+.trol-footer {
+    /* margin-top: 0.4em !important; */
+    /* width: 100%; */
+    /* height: 200px; */
+    /* padding-left: 0.34em !important; */
+    background-color: #fff;
+    padding: 0!important;
+    font-size: 24px;
+    width: 1210px!important;
+}
+
+.trol-footer .continue-buy {
+    margin-left: 4em;
+    margin-right: 4.7em;
+    cursor: pointer;
+}
+
+.trol-footer p {
+    float: left;
+    font-size: 0.14em;
+    line-height: 4.285em;
+    color: #585858;
+}
+
+.trol-footer p {
+    float: left;
+    font-size: 0.14em;
+    line-height: 4.285em;
+    color: #585858;
+}
+
+.trol-footer .shoppingTotal-Button {
+    float: right;
+    width: 10.4%;
+    height: 85px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 3.55em;
+    color: #fff;
+    background-color: #777777;
+}
+
+.trol-footer .trol-total {
+    float: right;
+    margin-right: 2.88em;
+}
+
+.trol-footer .trol-total {
+    float: right;
+    margin-right: 2.88em;
+}
+
+.trol-footer p {
+    float: left;
+    font-size: 20px;
+    line-height: 4.285em;
+    color: #585858;
+}
+
+
+/* 增加减少的样式 */
+
+.count input {
+    width: 40px;
+    border: none;
+    text-align: center;
+    height: 40px;
+    /* border: 1px solid #f5f5f5; */
+    /* width: 100px!important; */
+}
+
+.count .reduce {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+}
+
+.count .add {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+}
+
+.delete {
+    cursor: pointer;
+}

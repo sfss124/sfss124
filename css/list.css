@@ -1,0 +1,256 @@
+/* 搜索框的下拉菜单 */
+
+.right .holder {
+    height: 50px;
+    width: 180px;
+    float: left;
+}
+
+.holder input {
+    width: 180px;
+    height: 32px;
+}
+
+.holder ul {
+    display: none;
+    background: white;
+}
+
+.holder li {
+    line-height: 30px;
+    text-indent: 20px;
+}
+
+
+/* 右边三个按钮 */
+
+.back {
+    width: 65px;
+    height: 65px;
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 0;
+    bottom: 180px;
+    z-index: 1000;
+    display: none;
+    background-image: url(../images/indexfix3.jpg);
+    background-position: 0px 5px;
+}
+
+.chat {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    right: 0;
+    bottom: 235px;
+    z-index: 1000;
+    /* display: none; */
+    background-image: url(../images/indexfix2.jpg);
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+.feed {
+    background-image: url(../images/indexfix1.jpg);
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    right: 0;
+    bottom: 290px;
+    z-index: 1000;
+    background-position: 0px -5px;
+    cursor: pointer;
+}
+
+
+/* 顶部 */
+
+#top {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    min-width: 1170px;
+}
+
+#header {
+    /* width: 100%; */
+    height: 100px;
+    /* background-color: red; */
+}
+
+.left {
+    float: left;
+    margin-top: 10px;
+}
+
+.center {
+    float: left;
+    margin-left: 80px;
+}
+
+.center li {
+    float: left;
+    font-size: 16px;
+    /* margin-top: 42px; */
+    line-height: 100px;
+    margin-left: 30px;
+}
+
+.center li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right {
+    float: right;
+    /* line-height: 100px; */
+    /* text-align: center; */
+    margin-top: 35px;
+    width: 300px;
+}
+
+.right input {
+    border: none;
+    font-size: 16px;
+}
+
+.right button {
+    border: none;
+    /* background-color: red; */
+}
+
+.selist {
+    width: 100%;
+    position: absolute;
+    height: 350px;
+    top: 100;
+    left: 0;
+    background: #f5f5f5;
+    z-index: 102;
+    display: none;
+}
+
+.selist .one {
+    width: 200px;
+    float: left;
+}
+
+.selist .one h3 {
+    height: 0px;
+    margin-top: 30px;
+}
+
+.selist .one p {
+    height: 20px;
+}
+
+#content {
+    /* height: 500px; */
+    /* background-color: skyblue; */
+    margin-top: 100px;
+}
+
+#content .content {
+    height: 500px;
+    /* position: relative; */
+    /* background-color: red; */
+}
+
+.content .lt {
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.content .lt p {
+    font-size: 24px;
+    font-weight: 700;
+    /* height: 30px; */
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.content .lt a {
+    text-decoration: none;
+    color: black;
+}
+
+.content .lt ul li {
+    margin-top: 15px;
+}
+
+.content .lt ul li:hover {
+    color: red;
+}
+
+.content .rt {
+    /* height: 600px; */
+    width: 800px;
+    margin-left: 40px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+
+.content .rt .tt {
+    height: 34px;
+    border-bottom: 1px solid #f5f5f5;
+    /* background-color: red; */
+}
+
+.content .rt .pd {
+    width: 200px;
+    height: 300px;
+    /* background-color: red; */
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pd1 {
+    border: 1px solid #dbd7d7;
+}
+
+.content .rt .pd .pic {
+    width: 180px;
+    height: 180px;
+    /* text-align: center; */
+    margin: 0 auto;
+    /* border-bottom: 1px solid black; */
+}
+
+.content .rt .pd .pic img {
+    width: 180px;
+    height: 180px;
+    border-bottom: 1px solid #dbd7d7;
+    /* text-align: center; */
+}
+
+.content .rt .pd .bb {
+    height: 100px;
+    /* background-color: skyblue; */
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.c1 {
+    background-color: rgb(230, 229, 229);
+    width: 160px;
+    background-image: url(../images/jiantou.png);
+    background-repeat: no-repeat;
+    background-size: 10px 15px;
+    background-position: 140px, 0;
+}
+
+.more1 {
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    /* text-align: center;*/
+    margin: 0 auto;
+    margin-left: 380px;
+}

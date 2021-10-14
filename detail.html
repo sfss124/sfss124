@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 首页样式 -->
+    <link rel="stylesheet" href="./css/detail.css">
+    <!-- 引入bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="top">
+        <div id="header" class="container clearfix">
+            <div class="left">
+                <a href="http://localhost/00peak/inde.html"><img src="./images/logo.jpg" alt="" style="width: 110px; height: 80px;"></a>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="">商场</a> </li>
+                    <li><a href="">男子</a></li>
+                    <li><a href="">女子</a></li>
+                    <li><a href="">运动</a></li>
+                    <li><a href="">新闻</a></li>
+                    <li><a href="">匹克品牌</a></li>
+                    <li><a href="">粉丝社区</a></li>
+                    <li><a href="">门店查询</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+                <a href="./login.html"><input type="button" value="登录"></a>
+                <a href="./register.html"><input type="button" value="注册"></a>
+                <a href="./shopping.html" target="_blank"> <span style="margin-bottom: 5px;" id="shop">购物车<span id="carrr"></span>
+
+                    <div class="car" style="color: black;">
+                        <!-- <div class="boxx">
+                            <div class="ll" style=""><img src="./images/detail1.jpg" alt="">
+                                <p>商品名称</p>
+                                <div class="guige">
+                                    <p>商品颜色</p>
+                                    <p>尺码</p>
+                                </div>
+
+                                <span>数量</span>
+                                <span>价格</span>
+                            </div>
+
+                        </div> -->
+
+                    </div>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 商品详情 -->
+    <div id="content">
+        <div class="main1 container">
+            <div class="box" id="box">
+                <div class="l1" id="small">
+
+                    <img src="./images/detail1.jpg" alt="" id="i1" class='i3'>
+
+                    <div class="mask" id="mask" style="display: none;"></div>
+                </div>
+                <div class="big" id="big">
+                    <img src="./images/detail1.jpg" alt="" id="i2" class='i3' />
+                </div>
+                <div class="smallImg">
+                    <div class="cyclel"><img src="./images/cycle-left.png" alt=""></div>
+                    <div class="cycler"><img src="./images/cycle-right.png" alt=""></div>
+                    <div class="items">
+                        <ul style="left: 0px;">
+                            <li class="moved"><img src="./images/shoe1.jpg" alt="" id="aaa"></li>
+                            <li><img src="./images/shoe1.1.jpg" alt=""></li>
+                            <li><img src="./images/shoe1.2.jpg" alt=""></li>
+                            <li><img src="./images/shoe1.3.jpg" alt=""></li>
+                            <li><img src="./images/shoe1.4.jpg" alt=""></li>
+                            <li><img src="./images/shoe1.5.jpg" alt=""></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="r1">
+                <p id="shoes" style="font-size: 20px;"></p>
+                <div id="box1">
+                    <span>限量抢购</span>
+                    <div class="rrr">
+                        <span id="num"></span>
+                        <span id="time">
+                        <span id="h"></span>
+                        <span id="m"></span>
+                        <span id="s"></span>
+
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="goods-detail-wrapper">
+                    <div class="good-detail-item clearfix">
+                        <span>价格:</span>
+                        <p class="good-detail-info">
+
+                            抢购价 ¥<span class="price" id="ppp"></span>
+                            <span class="oldprice"></span>
+                        </p>
+                    </div>
+                    <div class="good-detail-item clearfix">
+                        <span>领券</span>
+                        <p class="good-detail-info clearfix" id="coupon">
+                            <span class="coupon" onclick="_xSalesScript.receive('3894115540619970')">满99减10</span>
+                            <span class="coupon" onclick="_xSalesScript.receive('3932143119663908')">满400减90</span>
+                            <span class="coupon" onclick="_xSalesScript.receive('389411582456136')">满200减20</span>
+                            <span class="coupon" onclick="_xSalesScript.receive('3932143517137208')">满200减20</span>
+                            <span class="coupon" onclick="_xSalesScript.receive('3894115943280568')">满300减30</span>
+
+                        </p>
+                        <div class="coupon-phone"></div>
+                    </div>
+                    <div class="good-detail-item clearfix">
+                        <span>活动</span>
+                        <ul class="good-detail-info active-list-container ">
+                            <li class="active-list-wrapper">
+                                <div class="active-icon-item"><span class="active-icon">积分抵现</span></div>
+                                <div class="active-desc">此商品匹克积分最高可抵现100元。
+                                    <a class="" href="javascript:showDiv()">积分抵现规则详情&gt;&gt;</a>
+                                </div>
+                            </li>
+                            <li class="active-list-wrapper">
+                                <div class="active-icon-item"><span class="active-icon">限时抢购</span></div>
+                                <div class="active-desc">【金秋聚划算】</div>
+                            </li>
+                            <li class="active-list-wrapper">
+                                <div class="active-icon-item"><span class="active-icon">满包邮</span></div>
+                                <div class="active-desc">【订单满59元】包邮</div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+                <div class="choose1">
+                    <p style="margin-top: 10px;">选择颜色</p>
+                    <span class="c1">红色</span>
+                    <span>蓝色</span>
+                    <span>绿色</span>
+
+                </div>
+                <div class="choose2">
+                    <p>选择尺码</p>
+                    <span class="c2">37</span>
+                    <span>38</span>
+                    <span>39</span>
+                    <span>40</span>
+                    <span>41</span>
+                    <span>42</span>
+                    <span>43</span>
+
+                </div>
+                <div class="choose3">
+                    <p>购买数量</p>
+                    <div class="num">
+                        <span class="l2">-</span>
+                        <input type="text" name="" id="" value="1" style="width: 50px;">
+                        <span class="r2">+</span>
+                    </div>
+                </div>
+
+                <div class="button-add"> 加入购物车</div>
+            </div>
+        </div>
+
+
+        <script>
+            function GetRequest() {
+                var url = location.search; //获取url中"?"符后的字串 
+                var theRequest = new Object();
+                if (url.indexOf("?") != -1) {
+                    var str = url.substr(1);
+                    strs = str.split(";");
+                    for (var i = 0; i < strs.length; i++) {
+                        theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                    }
+                }
+                return theRequest;
+            }
+            var Request = new Object();
+            Request = GetRequest();
+            var idd, name, pricee, srcc, srcc1;
+            name = Request['name'];
+            idd = Request['id'];
+            pricee = Request['price'];
+            srcc = Request['src'];
+            srcc1 = Request['srca'];
+            // console.log(name);
+            console.log(name, idd, pricee, srcc, srcc1);
+            // 图片1
+            let iObj = document.querySelectorAll('.i3');
+            iObj.forEach(function(v, k) {
+                v.src = srcc;
+                // console.log(v);
+            });
+            console.log(iObj);
+            //名字
+            let nObj = document.querySelectorAll('#shoes');
+            nObj.forEach(function(v) {
+                    v.innerHTML = name;
+                })
+                //价格
+            let pObj = document.querySelectorAll('#ppp');
+            pObj.forEach(function(v) {
+                    v.innerHTML = pricee;
+
+                })
+                //id
+            let idObj = document.querySelectorAll('.main1');
+            idObj.forEach(function(v) {
+                v.id = idd;
+            })
+        </script>
+        <script src="./js/detail.js"></script>
+</body>
+
+</html>
